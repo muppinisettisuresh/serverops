@@ -1,0 +1,7 @@
+#!/usr/bin/ansible-playbook
+---
+- name: debug
+  hosts: <hostname>
+  tasks:
+          - name: Print a simple statement
+            debug: msg="Hello World! Welcome to varains"
